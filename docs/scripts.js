@@ -28,18 +28,18 @@ function updateUI() {
   if (!selected) {
     flashEl.removeAttribute("manifest");
     setDisabled(true);
-    flashHint.textContent = "Select a board above.";
+    flashHint.textContent = "请先选择上面的开发板。";
     setActiveCard(null);
     return;
   }
   const manifestUrl = `./manifests/${selected}.json`;
   flashEl.setAttribute("manifest", manifestUrl);
   setDisabled(false);
-  flashHint.textContent = `Ready: Click Flash.`;
+  flashHint.textContent = "已准备就绪：点击烧录。";
   setActiveCard(selected);
 }
 
-// Clic board
+// 点击开发板
 grid.addEventListener("click", (e) => {
   const el = e.target.closest(".card");
   if (!el) return;
@@ -47,5 +47,5 @@ grid.addEventListener("click", (e) => {
   updateUI();
 });
 
-// Init
+// 初始化
 updateUI();
