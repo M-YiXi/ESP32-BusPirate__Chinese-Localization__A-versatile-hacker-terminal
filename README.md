@@ -8,3 +8,5 @@
 
 无法正常使用的文件：s3-devkit-n16-r8，如果你是这块主板，使用s3-devkit固件便可正常启动  
 
+以下是一些启动参考图片  
+https://github.com/M-YiXi/ESP32-Bus-Pirate-1.3-/blob/main/%E6%B1%89%E5%8C%96%E6%88%AA%E5%9B%BE/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-02-12%20223716.png
