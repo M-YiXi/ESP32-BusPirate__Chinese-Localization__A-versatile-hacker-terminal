@@ -6,7 +6,7 @@
     {
       "chipFamily": "ESP32-S3",
       "parts": [
-        { "path": "https://github.com/M-YiXi/ESP32-BusPirate__Chinese-Localization__A-versatile-hacker-terminal/blob/9bd23855b7337ad58f4687d4b17e3977f7c427c2/docs/firmwares/cardputer.bin", "offset": 0 }
+        { "path": "https://github.com/M-YiXi/ESP32-BusPirate__Chinese-Localization__A-versatile-hacker-terminal/raw/b8296dc1498d49e97cb1b664004345a937655137/docs/firmwares/cardputer.bin", "offset": 0 }
       ]
     }
   ]
